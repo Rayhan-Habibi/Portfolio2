@@ -1,25 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import AsidePage from './component/Aside/AsidePage';
+import { Icon } from '@iconify/react';
+import Container from './component/DescPage/Container';
+import Background from './Assets/Image/Blurry Background-min.jpg'
+import { useState } from 'react';
+import ContextScroll from './component/Context/ContextScroll';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  const screenRes = window.innerWidth;
+  if (screenRes < 768){
+    return(
+      <div className="">
+        <AsidePage />
+        <Container />
+      </div>
+    )
+  } else {
+    return (
+        <div className='grid grid-cols-2 h-screen z-2'>
+          <AsidePage/>
+          <Container />
+        </div>
+    );
+  }
 }
 
 export default App;
