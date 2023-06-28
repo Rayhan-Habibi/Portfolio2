@@ -20,6 +20,7 @@ h1{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+ 
 }
 .hide-scrollbar::-webkit-scrollbar {
   width: 0.5rem;
@@ -28,5 +29,8 @@ h1{
 
 .hide-scrollbar::-webkit-scrollbar-thumb {
   background-color: transparent;
+}
+body{
+  scroll-behavior: smooth !important;
 }
 

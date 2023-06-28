@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
 
     return(
-        <div>
+        <div id="About">
             <p>
             When I was 10 years old, I filled my school exam paper with sketches of my redesigned app, 
             starting from Microsoft Office to sketching my own Linux distribution's user interface. 

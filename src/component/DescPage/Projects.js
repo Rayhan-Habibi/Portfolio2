@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const ProjectsData = (props) => {
     return(
-        <div className="border-2 border-white rounded-lg mt-6 grid grid-cols-3 p-3 items-center lg:bg-white/50 hover:backdrop-blur-md hover:border-0 hover:bg-white/25 hover:shadow-[#ECF0F8] shadow-xl duration-100 bg-gray-100">
+        <div className="border-2 border-white rounded-lg mt-6 grid grid-cols-3 p-3 items-center lg:bg-white/50 hover:backdrop-blur-md hover:border-0 hover:bg-white/25 hover:shadow-[#ECF0F8] shadow-xl duration-100 bg-gray-100" id="Projects">
             <img src={props.image} className="rounded-lg w-11/12 border-2"/>
             <div className="col-span-2">
                 <a href={props.link} className="text-xl flex hover:text-[#767feb]">{props.title} <Icon icon="iconoir:arrow-tr" width="15" height="15" className="duration-100" /></a>

@@ -14,10 +14,10 @@ function App() {
   const screenRes = window.innerWidth;
   if (screenRes < 768){
     return(
-      <div className="">
+      <>
         <AsidePage />
         <Container />
-      </div>
+      </>
     )
   } else {
     return (

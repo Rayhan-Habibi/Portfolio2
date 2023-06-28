@@ -13,7 +13,7 @@ const SkillsData = (props) => {
 
 const Skills = () => {
     return(
-        <div id="Skills lg:static relative">
+        <div id="Skills">
             <h2 className="lg:mt-10 lg:text-4xl lg:mb-5 text-2xl mt-5 lg:static sticky top-0">My Expertise</h2>
             <div className="flex flex-wrap duration-100">
                 <SkillsData iconName="logos:react" skillName="React" />
