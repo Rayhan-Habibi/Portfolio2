@@ -3,6 +3,7 @@ import Todolist from '../../Assets/Image/Todolist.png'
 import Hairday from '../../Assets/Image/Hairday.png'
 import Goclean from '../../Assets/Image/GoClean.png'
 import { Icon } from "@iconify/react";
+import SmartDiction from "../../Assets/Image/SmartDictionaries.png"
 
 const ProjectsData = (props) => {
     return(
@@ -17,6 +18,12 @@ const ProjectsData = (props) => {
 }
 
 const ProjectsDataJson = [
+    {
+        image: SmartDiction,
+        link: "https://rayhan-habibi.github.io/Smart_Diction/",
+        title: "Smart Diction",
+        desc: "A Application that built by English Dictionary API. This app is helps non-native in english to learn that language more efficiently. This app provided definition, synonyms, antonyms, and spelling of the word that needed to know"
+    },
     {
         image: Todolist,
         link: "https://rayhan-habibi.github.io/Todolist/",
@@ -34,7 +41,7 @@ const ProjectsDataJson = [
         link: "https://rayhan-habibi.github.io/goclean/",
         title: "GoClean",
         desc: "The first website i made that have purpose to know the basic HTML structure and figuring out how's the website is built. This website is powered by Bootstrap with additional vanilla CSS"
-    },
+    }
 ]
 
 const Projects = () => {
