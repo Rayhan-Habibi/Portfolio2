@@ -2,6 +2,7 @@ import React from "react";
 import Todolist from '../../Assets/Image/Todolist.png'
 import Hairday from '../../Assets/Image/Hairday.png'
 import Goclean from '../../Assets/Image/GoClean.png'
+import Deliciao from '../../Assets/Image/Deliciao Landscape.png'
 import { Icon } from "@iconify/react";
 import SmartDiction from "../../Assets/Image/SmartDictionaries.png"
 
@@ -18,6 +19,12 @@ const ProjectsData = (props) => {
 }
 
 const ProjectsDataJson = [
+    {
+        image: Deliciao,
+        link: "https://rayhan-habibi.github.io/Deliciao/",
+        title: "Deliciao",
+        desc: "A coffee shop website that built by React. Providing beutiful and gorgeous animated website with AnimaJS, A JavaScript Library that provide animation for the website"
+    },
     {
         image: SmartDiction,
         link: "https://rayhan-habibi.github.io/Smart_Diction/",
