@@ -12,7 +12,7 @@ const About = () => {
             </p>
             <br />
             <p>
-            My main objective while building the website is 
+            My main objective while building the website are
             <br />
             <b>Accessible</b>, So your website will reach huge target audience.
             <br />
